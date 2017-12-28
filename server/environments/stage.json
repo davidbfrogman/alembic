@@ -1,0 +1,20 @@
+{
+    "name": "alembic.list.api",
+    "database": {
+      "mongoConnectionString": "mongodb://root:USR@PASSWORD.mlab.com:29004/alembic-list-development"
+    },
+    "ampq":{
+        "ampqConnectionString": "amqp://USER:PASSW@puma.rmq.cloudamqp.com/"
+    },
+    "systemUserPassword": "asd98ba7fd9ioaudfb98asdoiufasdo8auodsfig",
+    "jwtSecretToken": "a9fd8b7oadf8b7idsgfh9a8fd",
+    "returnCallStackOnError": true,
+    "isConsoleLoggingActive": true,
+    "mandrillApiKey": "TESTING", // this is the test key for right now... switch to real
+    "clientDistFolder": "dev",
+    "identityApiEndpoint": "https://dev.list.alembic.io/api/v1",
+    // THIS DOESN"T WORK like you think for unit testing.  Remember, unit tests are run in integration.
+    //"identityApiEndpoint": "http://localhost:8080",
+    "ProductImageBucketName": "dev-product-api-images",
+    "SupplierImageBucketName": "dev-supplier-api-images"
+}

@@ -57,3 +57,16 @@ typings/
 # dotenv environment variables file
 .env
 
+# Custom git ignores
+node_modules
+server/**/*.js
+server/**/*.js.map
+typings
+/npm-debug.log
+coverage
+dist
+o-ri/launchy
+o-ri/launchy.bat
+*.bat
+o-ri/travis
+img-uploads/
